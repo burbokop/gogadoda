@@ -1,0 +1,14 @@
+name: gogadoda
+version: "0.5"
+base: core18
+summary: Simple C++ Program from burbokop
+description: Some Description
+parts:
+  gogadoda:
+    plugin: autotools
+    source-type: git
+    source: https://github.com/burbokop/gogadoda
+    build-packages:
+      - g++
+      - make
+    
